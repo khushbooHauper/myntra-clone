@@ -3,13 +3,19 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {HashRouter} from 'react-router-dom'
+import Header from './components/Header';
+import '@fortawesome/fontawesome-free/css/all.css';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <HashRouter>
+      <Header/>
+      <App />
+    </HashRouter>
   </React.StrictMode>
 );
 

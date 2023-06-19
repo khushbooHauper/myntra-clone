@@ -1,0 +1,23 @@
+.card{
+    width: 200px;
+    height: 300px;
+    margin-bottom: 20px;
+    padding: 8px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    .card-body{
+        .clipped-text {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+          }
+    }
+    img{
+        width: 200px;
+        height: 200px;
+    }
+}
+.card:hover{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
