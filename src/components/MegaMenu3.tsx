@@ -9,6 +9,7 @@ import {
   Kids_Accessories,
   Toys,
 } from "./MegaMenuData";
+import { Link } from "react-router-dom";
 const MegaMenu3 = () => {
   return (
     <div className="mega-menu">
@@ -17,7 +18,7 @@ const MegaMenu3 = () => {
         {Boys_Clothing.map((t) => (
           <ul className="mega-menu-links" key={t.title}>
             <li>
-              <a href="#">{t.title}</a>
+            <Link to={`/${t.category}/${t.title}`}>{t.title}</Link>
             </li>
           </ul>
         ))}
@@ -27,7 +28,7 @@ const MegaMenu3 = () => {
         {Girls_Clothing.map((b) => (
           <ul className="mega-menu-links" key={b.title}>
             <li>
-              <a href="#">{b.title}</a>
+            <Link to={`/${b.category}/${b.title}`}>{b.title}</Link>
             </li>
           </ul>
         ))}
@@ -39,7 +40,7 @@ const MegaMenu3 = () => {
         {KFootwear.map((f) => (
           <ul className="mega-menu-links" key={f.title}>
             <li>
-              <a href="#">{f.title}</a>
+            <Link to={`/${f.category}/${f.title}`}>{f.title}</Link>
             </li>
           </ul>
         ))}
@@ -47,7 +48,7 @@ const MegaMenu3 = () => {
         {Toys.map((s) => (
           <ul className="mega-menu-links" key={s.title}>
             <li>
-              <a href="#">{s.title}</a>
+            <Link to={`/${s.category}/${s.title}`}>{s.title}</Link>
             </li>
           </ul>
         ))}
@@ -57,7 +58,7 @@ const MegaMenu3 = () => {
         {Infants.map((s) => (
           <ul className="mega-menu-links" key={s.title}>
             <li>
-              <a href="#">{s.title}</a>
+            <Link to={`/${s.category}/${s.title}`}>{s.title}</Link>
             </li>
           </ul>
         ))}
@@ -69,7 +70,7 @@ const MegaMenu3 = () => {
         {Kids_Accessories.map((b) => (
           <ul className="mega-menu-links" key={b.title}>
             <li>
-              <a href="#">{b.title}</a>
+            <Link to={`/${b.category}/${b.title}`}>{b.title}</Link>
             </li>
           </ul>
         ))}
@@ -77,7 +78,7 @@ const MegaMenu3 = () => {
         {KBrands.map((b) => (
           <ul className="mega-menu-links" key={b.title}>
             <li>
-              <a href="#">{b.title}</a>
+            <Link to={`/${b.category}/${b.title}`}>{b.title}</Link>
             </li>
           </ul>
         ))}

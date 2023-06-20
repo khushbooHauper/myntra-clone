@@ -1,0 +1,108 @@
+.Link-page-container{
+    .breadcrumbs{
+        height: 150px;
+        padding: 10px;
+        // background-color: greenyellow;
+        .filter-dropdown{
+           margin-bottom: 40px;
+           padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .h5-heading-black{
+                font-size: 16px;
+                font-weight: 600;
+            }
+            .dropdown {
+                position: relative;
+              
+                .dropdown-toggle {
+                  background-color: #ffffff;
+                  border: none;
+                  padding: 10px;
+                  cursor: pointer;
+                  width: 182px;
+                  border: 1px solid #e3e3e3d9;
+                }
+              
+                .dropdown-menu {
+                  display: none;
+                  position: absolute;
+                  background-color: #fff;
+                  border: 1px solid #ccc;
+                  padding: 10px;
+                  z-index: 1;
+                  width: 160px;
+              
+                  li {
+                    list-style: none;
+                    margin-bottom: 5px;
+              
+                    a {
+                      color: #333;
+                      text-decoration: none;
+              
+                    }
+                    &:hover {
+                        background-color: rgba(197, 197, 197, 0.76);
+                      }
+                  }
+                }
+              
+                &:hover .dropdown-menu {
+                  display: block;
+                  margin-top: -5px
+                }
+              }
+              
+              
+        }
+    }
+    .filter-category-cards-container{
+            height: auto;
+            display: flex;
+            // justify-content: space-between;
+            // align-items: center;
+            border-top: 1px solid grey;
+            border-bottom: 1px solid grey;
+            .filters-column{
+            width: 20%;
+            display: flex;
+            flex-direction: column;
+            // justify-content: space-around;
+            .category-div{
+                display: flex;
+                flex-direction: column;
+                border-bottom: 1px solid grey;
+                padding: 10px;
+                .pink-text{
+                  color: deeppink;
+                }
+                .brand-search-div{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .search-brand{
+                        background-color: rgba(156, 151, 151, 0.395);
+                        padding: 6px;
+                        border-radius: 50%;
+                        cursor: pointer;
+                    }
+                    
+                    
+                }
+            }
+            .category-div-discount{
+                padding: 10px;
+            }
+            }
+            .cards-column{
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                width: 80%;
+                border-left: 1px solid grey;
+                padding: 20px;
+            }
+    }
+}

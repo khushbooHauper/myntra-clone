@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles/megamenu.scss";
 import { Bath, BedLinenFurnishing, Flooring, HBrands, HomeDécor, KitchenTable, LampsLighting, storage } from "./MegaMenuData";
+import { Link } from "react-router-dom";
 
 const MegaMenu4 = () => {
   return (
@@ -10,7 +11,7 @@ const MegaMenu4 = () => {
         {BedLinenFurnishing.map((t) => (
           <ul className="mega-menu-links" key={t.title}>
             <li>
-              <a href="#">{t.title}</a>
+            <Link to={`/${t.category}/${t.title}`}>{t.title}</Link>
             </li>
           </ul>
         ))}
@@ -18,7 +19,7 @@ const MegaMenu4 = () => {
         {Flooring.map((t) => (
           <ul className="mega-menu-links" key={t.title}>
             <li>
-              <a href="#">{t.title}</a>
+            <Link to={`/${t.category}/${t.title}`}>{t.title}</Link>
             </li>
           </ul>
         ))}
@@ -28,7 +29,7 @@ const MegaMenu4 = () => {
         {Bath.map((b) => (
           <ul className="mega-menu-links" key={b.title}>
             <li>
-              <a href="#">{b.title}</a>
+            <Link to={`/${b.category}/${b.title}`}>{b.title}</Link>
             </li>
           </ul>
         ))}
@@ -37,7 +38,7 @@ const MegaMenu4 = () => {
         {LampsLighting.map((b) => (
           <ul className="mega-menu-links" key={b.title}>
             <li>
-              <a href="#">{b.title}</a>
+            <Link to={`/${b.category}/${b.title}`}>{b.title}</Link>
             </li>
           </ul>
         ))}
@@ -47,7 +48,7 @@ const MegaMenu4 = () => {
         {HomeDécor.map((f) => (
           <ul className="mega-menu-links" key={f.title}>
             <li>
-              <a href="#">{f.title}</a>
+            <Link to={`/${f.category}/${f.title}`}>{f.title}</Link>
             </li>
           </ul>
         ))}
@@ -60,7 +61,7 @@ const MegaMenu4 = () => {
         {KitchenTable.map((s) => (
           <ul className="mega-menu-links" key={s.title}>
             <li>
-              <a href="#">{s.title}</a>
+            <Link to={`/${s.category}/${s.title}`}>{s.title}</Link>
             </li>
           </ul>
         ))}
@@ -68,7 +69,7 @@ const MegaMenu4 = () => {
         {storage.map((st) => (
           <ul className="mega-menu-links" key={st.title}>
             <li>
-              <a href="#">{st.title}</a>
+            <Link to={`/${st.category}/${st.title}`}>{st.title}</Link>
             </li>
           </ul>
         ))}
@@ -79,7 +80,7 @@ const MegaMenu4 = () => {
         {HBrands.map((b) => (
           <ul className="mega-menu-links" key={b.title}>
             <li>
-              <a href="#">{b.title}</a>
+            <Link to={`/${b.category}/${b.title}`}>{b.title}</Link>
             </li>
           </ul>
         ))}

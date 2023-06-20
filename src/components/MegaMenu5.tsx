@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles/megamenu.scss";
 import { BTopBrands, BeautyGiftMakeupSet, Fragrances, HairStraightener, Haircare, Makeup, MenGrooming, SkincareBathBody } from "./MegaMenuData";
+import { Link } from "react-router-dom";
 
 const MegaMenu5 = () => {
   return (
@@ -10,7 +11,7 @@ const MegaMenu5 = () => {
         {Makeup.map((t) => (
           <ul className="mega-menu-links" key={t.title}>
             <li>
-              <a href="#">{t.title}</a>
+            <Link to={`/${t.category}/${t.title}`}>{t.title}</Link>
             </li>
           </ul>
         ))}
@@ -21,7 +22,7 @@ const MegaMenu5 = () => {
         {SkincareBathBody.map((b) => (
           <ul className="mega-menu-links" key={b.title}>
             <li>
-              <a href="#">{b.title}</a>
+            <Link to={`/${b.category}/${b.title}`}>{b.title}</Link>
             </li>
           </ul>
         ))}
@@ -35,7 +36,7 @@ const MegaMenu5 = () => {
         {Haircare.map((f) => (
           <ul className="mega-menu-links" key={f.title}>
             <li>
-              <a href="#">{f.title}</a>
+            <Link to={`/${f.category}/${f.title}`}>{f.title}</Link>
             </li>
           </ul>
         ))}
@@ -43,7 +44,7 @@ const MegaMenu5 = () => {
         {Fragrances.map((f) => (
           <ul className="mega-menu-links" key={f.title}>
             <li>
-              <a href="#">{f.title}</a>
+            <Link to={`/${f.category}/${f.title}`}>{f.title}</Link>
             </li>
           </ul>
         ))}
@@ -53,7 +54,7 @@ const MegaMenu5 = () => {
         {HairStraightener.map((s) => (
           <ul className="mega-menu-links" key={s.title}>
             <li>
-              <a href="#">{s.title}</a>
+            <Link to={`/${s.category}/${s.title}`}>{s.title}</Link>
             </li>
           </ul>
         ))}
@@ -61,7 +62,7 @@ const MegaMenu5 = () => {
         {MenGrooming.map((s) => (
           <ul className="mega-menu-links" key={s.title}>
             <li>
-              <a href="#">{s.title}</a>
+            <Link to={`/${s.category}/${s.title}`}>{s.title}</Link>
             </li>
           </ul>
         ))}
@@ -69,7 +70,7 @@ const MegaMenu5 = () => {
         {BeautyGiftMakeupSet.map((st) => (
           <ul className="mega-menu-links" key={st.title}>
             <li>
-              <a href="#">{st.title}</a>
+            <Link to={`/${st.category}/${st.title}`}>{st.title}</Link>
             </li>
           </ul>
         ))}
@@ -82,7 +83,7 @@ const MegaMenu5 = () => {
         {BTopBrands.map((b) => (
           <ul className="mega-menu-links" key={b.title}>
             <li>
-              <a href="#">{b.title}</a>
+            <Link to={`/${b.category}/${b.title}`}>{b.title}</Link>
             </li>
           </ul>
         ))}

@@ -6,7 +6,6 @@ import reportWebVitals from './reportWebVitals';
 import {HashRouter} from 'react-router-dom'
 import Header from './components/Header';
 import '@fortawesome/fontawesome-free/css/all.css';
-
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );

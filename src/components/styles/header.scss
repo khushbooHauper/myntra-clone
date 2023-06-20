@@ -1,77 +1,159 @@
-// Variables
 $primary-color: #cc1c45;
 $secondary-color: #333;
-$white-color:#fff;
+$white-color: #fff;
 $navbar-height: 80px;
 
 @mixin displayFlex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.navbar{
- box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);   
- background-color: $white-color;
- height: $navbar-height;
- padding: 0 20px;
- @include displayFlex;
- .logo {
-    width: 53px;
-    height: 36px;
-}
-.navbar-brand{
- width: 5%
-}
-.navbar-menu {
+.navbar {
+  @include displayFlex;
+  position: relative;
+  z-index: 999;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: $white-color;
+  height: $navbar-height;
+  padding: 0 20px;
+
+  &.mobile {
+    .navbar-brand {
+      width: 100%;
+      text-align: center;
+      .logo{
+        width: 50px;
+        height: 50px;
+      }
+    }
+
+    .navbar-menu {
+      display: none;
+      position: absolute;
+      top: $navbar-height;
+      left: 0;
+      width: 100%;
+      background-color: $white-color;
+
+      &.open {
+        display: block;
+      }
+
+      .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+
+        .nav-item {
+          list-style: none;
+
+          .nav-link {
+            display: block;
+            padding: 10px;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+
+  .navbar-brand {
+    width: 5%;
+    .logo{
+      width: 50px;
+      height: 50px;
+    }
+  }
+
+  .navbar-menu {
     width: 40%;
+
     .navbar-nav {
-       
       @include displayFlex;
+
       .nav-item {
         list-style: none;
-        
+
         a {
           text-decoration: none;
           color: black;
           font-weight: 500;
           font-size: 13px;
           cursor: pointer;
-        }
-        .nav-link{
-           padding: 10px;
-          
+          padding: 10px;
         }
       }
     }
   }
-  .search-input-div{
+
+  .search-input-div {
     width: 20%;
-    input{
-        padding: 10px 11px;
-        width: 300px;
-        border: none;
-        border-radius: 3px;
-        background-color: rgba(199, 199, 199, 0.285);
-        color: rgb(155, 155, 155);
+
+    input {
+      padding: 10px 11px;
+      width: 300px;
+      border: none;
+      border-radius: 3px;
+      background-color: rgba(199, 199, 199, 0.285);
+      color: rgb(155, 155, 155);
     }
   }
-  .navbar-icons{
+
+  .navbar-icons {
     color: black;
     @include displayFlex;
     width: 15%;
-  .icon-and-heading{
-    @include displayFlex;
-    flex-direction: column;
-    cursor: pointer;
-    span{
-      font-size: 12px;
-      font-weight: 600;
+
+    .icon-and-heading {
+      @include displayFlex;
+      flex-direction: column;
+      cursor: pointer;
+
+      span {
+        font-size: 12px;
+        font-weight: 600;
+      }
     }
-    
   }
+
+  &-toggle {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    .navbar-toggle-label {
+      display: block;
+      width: 30px;
+      height: 30px;
+      position: relative;
+      cursor: pointer;
+
+      span {
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: $secondary-color;
+        position: absolute;
+        left: 0;
+
+        &:nth-child(1) {
+          top: 0;
+        }
+
+        &:nth-child(2),
+        &:nth-child(3) {
+          top: 50%;
+          transform: translateY(-50%);
+        }
+
+        &:nth-child(2) {
+          margin-top: -2px;
+        }
+
+        &:nth-child(3) {
+          margin-top: 2px;
+        }
+      }
+    }
   }
-  
-   
-  
-}  
+}

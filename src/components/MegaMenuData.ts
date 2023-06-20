@@ -1,35 +1,36 @@
+
 export const Topwear = [
-    {
+    {   
         title: 'T-Shirts',
-        url: '#'
+        category: 'Men Clothing',
     },
     {
         title: 'Casual Shirts',
-        url: '#'
+        category: 'Men Clothing'
     },
     {
         title: 'Formal Shirts',
-        url: '#'
+        category: 'Men Clothing'
     },
     {
         title: 'Sweatshirts',
-        url: '#'
+        category: 'Men Clothing'
     },
     {
         title: 'Sweaters',
-        url: '#'
+        category:'Men Clothing'
     },
     {
         title: 'Jackets',
-        url: '#'
+        category: 'Men Clothing'
     },
     {
         title: 'Blazers & Coats',
-        url: '#'
+        category: 'Men Clothing'
     },
     {
         title: 'Suits',
-        url: '#Rain Jackets'
+        category: 'Men Clothing'
     },
    
 
@@ -38,19 +39,19 @@ export const Topwear = [
 export const indian_festive = [
     {
         title: 'Kurtas & Kurta Sets',
-        url: '#'
+        category: 'Men Clothing'
     },
     {
         title: 'Sherwanis',
-        url: '#'
+        category:'Men Clothing'
     },
     {
         title: 'Nehru Jackets',
-        url: '#'
+        category: 'Men Clothing'
     },
     {
         title: 'Dhotis',
-        url: '#'
+        category: 'Men Clothing'
     }
     
 
@@ -59,23 +60,23 @@ export const indian_festive = [
 export const bottomwear = [
     {
         title: 'Jeans',
-        url: '#'
+        category: 'Men Clothing'
     },
     {
         title: 'Casual Trousers',
-        url: '#'
+        category: 'Men Clothing'
     },
     {
         title: 'Formal Trousers',
-        url: '#'
+        category: 'Men Clothing'
     },
     {
         title: 'Shorts',
-        url: '#'
+        category: 'Men Clothing'
     },
     {
         title: 'Track Pants & Joggers',
-        url: '#'
+        category: 'Men Clothing'
     }
     
 
@@ -84,23 +85,23 @@ export const bottomwear = [
 export const Innerwear_Sleepwear = [
     {
         title: 'Briefs & Trunks',
-        url: '#'
+        category: 'Men Clothing'
     },
     {
         title: 'Boxers',
-        url: '#'
+        category: 'Men Clothing'
     },
     {
         title: 'Vests',
-        url: '#'
+        category: 'Men Clothing'
     },
     {
         title: 'Sleepwear & Loungewear',
-        url: '#'
+        category: 'Men Clothing'
     },
     {
         title: 'Thermals',
-        url: '#'
+        category: 'Men Clothing'
     }
     
 
@@ -109,31 +110,31 @@ export const Innerwear_Sleepwear = [
 export const Footwear = [
     {
         title: 'Casual Shoes',
-        url: '#'
+        category: 'Men Footwear'
     },
     {
         title: 'Sports Shoes',
-        url: '#'
+        category: 'Men Footwear'
     },
     {
         title: 'Formal Shoes',
-        url: '#'
+        category: 'Men Footwear'
     },
     {
         title: 'Sneakers',
-        url: '#'
+        category: 'Men Footwear'
     },
     {
         title: 'Sandals & Floaters',
-        url: '#'
+        category: 'Men Footwear'
     },
     {
         title: 'Flip Flops',
-        url: '#'
+        category: 'Men Footwear'
     },
     {
         title: 'Socks',
-        url: '#'
+        category: 'Men Footwear'
     }
     
 
@@ -142,35 +143,35 @@ export const Footwear = [
 export const Sports_Active_Wear = [
     {
         title: 'Sports Shoes',
-        url: '#'
+        category: 'Men Footwear'
     },
     {
         title: 'Sports Sandals',
-        url: '#'
+        category: 'Men Footwear'
     },
     {
         title: 'Active T-Shirts',
-        url: '#'
+        category: 'Men Clothing'
     },
     {
         title: 'Track Pants & Shorts',
-        url: '#'
+        category: 'Men Clothing'
     },
     {
         title: 'Tracksuits',
-        url: '#'
+        category: 'Men Clothing'
     },
     {
         title: 'Jackets & Sweatshirts',
-        url: '#'
+        category: 'Men Clothing'
     },
     {
         title: 'Sports Accessories',
-        url: '#'
+        category: 'Accessories'
     },
     {
         title: 'Swimwear',
-        url: '#'
+        category: 'Men Clothing'
     }
     
 
@@ -179,19 +180,19 @@ export const Sports_Active_Wear = [
 export const Gadgets = [
     {
         title: 'Smart Wearables',
-        url: '#'
+        category: 'Men Accessories'
     },
     {
         title: 'Fitness Gadgets',
-        url: '#'
+        category: 'Men Accessories'
     },
     {
         title: 'Headphones',
-        url: '#'
+        category: 'Men Accessories'
     },
     {
         title: 'Speakers',
-        url: '#'
+        category: 'Men Accessories'
     }
     
 
@@ -200,51 +201,51 @@ export const Gadgets = [
 export const Fashion_Accessories = [
     {
         title: 'Wallets',
-        url: '#'
+        category: 'Men Accessories'
     },
     {
         title: 'Belts',
-        url: '#'
+        category: 'Men Accessories'
     },
     {
         title: 'Perfumes & Body Mists',
-        url: '#'
+        category: 'Men Accessories'
     },
     {
         title: 'Trimmers',
-        url: '#'
+        category: 'Men Accessories'
     },
     {
         title: 'Deodorants',
-        url: '#'
+        category: 'Men Accessories'
     },
     {
         title: 'Ties, Cufflinks & Pocket Squares',
-        url: '#'
+        category: 'Men Accessories'
     },
     {
         title: 'Accessory Gift Sets',
-        url: '#'
+        category: 'Men Accessories'
     },
     {
         title: 'Caps & Hats',
-        url: '#'
+        category: 'Men Accessories'
     },
     {
         title: 'Mufflers, Scarves & Gloves',
-        url: '#'
+        category: 'Men Accessories'
     },
     {
         title: 'Phone Cases',
-        url: '#'
+        category: 'Men Accessories'
     },
     {
         title: 'Rings & Wristwear',
-        url: '#'
+        category: 'Men Accessories'
     },
     {
         title: 'Helmets',
-        url: '#'
+        category: 'Men Accessories'
     }
     
 
@@ -255,98 +256,98 @@ export const Fashion_Accessories = [
 export const Indian_FusionWear = [
     {
         title: 'Kurtas & Suits',
-        url: '#'
+        category: 'Clothing'
     },
     {
         title: 'Kurtis, Tunics & Tops',
-        url: '#'
+        category: 'Clothing'
     },
     {
         title: 'Ethnic Wear',
-        url: '#'
+        category: 'Clothing'
     },
     {
         title: 'Leggings, Salwars & Churidars',
-        url: '#'
+        category: 'Clothing'
     },
     {
         title: 'Skirts & Palazzos',
-        url: '#'
+        category: 'Clothing'
     },
     {
         title: 'Sarees',
-        url: '#'
+        category: 'Clothing'
     },
     {
         title: 'Dress Materials',
-        url: '#'
+        category: 'Clothing'
     },
     {
         title: 'Lehenga Cholis',
-        url: '#'
+        category: 'Clothing'
     },
     {
         title: 'Dupattas & Shawls',
-        url: '#'
+        category: 'Clothing'
     },
     {
         title: 'Jackets',
-        url: '#'
+        category: 'Clothing'
     }
 ]
 
 export const Western_Wear= [
     {
         title: 'Dresses',
-        url: '#'
+        category: 'Clothing'
     },
     {
         title: 'Tops',
-        url: '#'
+        category: 'Clothing'
     },
     {
         title: 'Tshirts',
-        url: '#'
+        category: 'Clothing'
     },
     {
         title: 'Jeans',
-        url: '#'
+        category: 'Clothing'
     },
     {
         title: 'Trousers & Capris',
-        url: '#'
+        category: 'Clothing'
     },
     {
         title: 'Shorts & Skirts',
-        url: '#'
+        category: 'Clothing'
     },
     {
         title: 'Co-ords',
-        url: '#'
+        category: 'Clothing'
     },
     {
         title: 'Playsuits',
-        url: '#'
+        category: 'Clothing'
     },
     {
         title: 'Jumpsuits',
-        url: '#'
+        category: 'Clothing'
     },
     {
         title: 'Shrugs',
-        url: '#'
+        category: 'Clothing'
     },
     {
         title: 'Sweaters & Sweatshirts',
-        url: '#'
+        category: 'Clothing'
     },
     {
         title: 'Jackets & Coats',
-        url: '#'
+        category: 'Clothing'
     },
     {
         title: 'Blazers & Waistcoats',
-        url: '#'
+        category: 'Clothing'
     }
    
 ]
@@ -354,54 +355,54 @@ export const Western_Wear= [
 export const Shop_Occassion = [
     {
         title: 'Office',
-        url: '#'
+        category: 'Clothing'
     },
     {
         title: 'Casual outing',
-        url: '#'
+        category: 'Clothing'
     },
     {
         title: 'Wedding',
-        url: '#'
+        category: 'Clothing'
     },
     {
         title: 'Party',
-        url: '#'
+        category: 'Clothing'
     },
     {
         title: 'Workout',
-        url: '#'
+        category: 'Clothing'
     },
     {
         title: 'Vacation',
-        url: '#'
+        category: 'Clothing'
     },
     {
         title: 'At Home',
-        url: '#'
+        category: 'Clothing'
     }
 ]
 
 export const WFootwear = [
     {
         title: 'Flats',
-        url: '#'
+        category: 'Footwear'
     },
     {
         title: 'Casual Shoes',
-        url: '#'
+        category: 'Footwear'
     },
     {
         title: 'Heels',
-        url: '#'
+        category: 'Footwear'
     },
     {
         title: 'Boots',
-        url: '#'
+        category: 'Footwear'
     },
     {
         title: 'Sports Shoes & Floaters',
-        url: '#'
+        category: 'Footwear'
     },
 
 ]
@@ -409,19 +410,19 @@ export const WFootwear = [
 export const Sports_ActiveWear = [
     {
         title: 'Clothing',
-        url: '#'
+        category: 'Clothing'
     },
     {
         title: 'Footwear',
-        url: '#'
+        category: 'Footwear'
     },
     {
         title: 'Sports Accessories',
-        url: '#'
+        category: 'Accessories'
     },
     {
         title: 'Sports Equipment',
-        url: '#'
+        category: 'Accessories'
     },
 
 ]
@@ -429,65 +430,65 @@ export const Sports_ActiveWear = [
 export const Lingerie_Sleepwear = [
     {
         title: 'Bra',
-        url: '#'
+        category: 'Clothing'
     },
     {
         title: 'Briefs',
-        url: '#'
+        category: 'Clothing'
     },
     {
         title: 'Shapewear',
-        url: '#'
+        category: 'Clothing'
     },
     {
         title: 'Sleepwear & Loungewear',
-        url: '#'
+        category: 'Clothing'
     },
     {
         title: 'Swimwear',
-        url: '#'
+        category: 'Clothing'
     },
     {
         title: 'Camisoles & Thermals',
-        url: '#'
+        category: 'Clothing'
     },
 
 ]
 export const Beauty_Personal_Care = [
     {
         title: 'Makeup',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Skincare',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Premium Beauty',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Lipsticks',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Fragrances',
-        url: '#'
+        category: 'Personal Care'
     },
 
 ]
 export const Jewellery = [
     {
         title: 'Fashion Jewellery',
-        url: '#'
+        category: 'Accessories'
     },
     {
         title: 'Fine Jewellery',
-        url: '#'
+        category: 'Accessories'
     },
     {
         title: 'HeeEarringsls',
-        url: '#'
+        category: 'Accessories'
     },
    
 
@@ -497,56 +498,56 @@ export const Jewellery = [
 export const Boys_Clothing = [
     {
         title: 'T-Shirts',
-        url: '#'
+        category: 'Kids Boy Clothing'
     },
     {
         title: 'Shirts',
-        url: '#'
+        category: 'Kids Boy Clothing'
     },
     {
         title: 'Shorts',
-        url: '#'
+        category: 'Kids Boy Clothing'
     },
     {
         title: 'Jeans',
-        url: '#'
+        category: 'Kids Boy Clothing'
     },
     {
         title: 'Trousers',
-        url: '#'
+        category: 'Kids Boy Clothing'
     },
     {
         title: 'Clothing Sets',
-        url: '#'
+        category: 'Kids Boy Clothing'
     },
     {
         title: 'Ethnic Wear',
-        url: '#'
+        category: 'Kids Boy Clothing'
     },
     {
         title: 'Track Pants & Pyjamas',
-        url: '#'
+        category: 'Kids Boy Clothing'
     },
     {
         title: 'Jacket, Sweater & Sweatshirts',
-        url: '#'
+        category: 'Kids Boy Clothing'
     },
     {
         title: 'Party Wear',
-        url: '#'
+        category: 'Kids Boy Clothing'
     },
     {
         title: 'Innerwear & Thermals',
-        url: '#'
+        category: 'Kids Boy Clothing'
     },
 
     {
         title: 'Nightwear & Loungewear',
-        url: '#'
+        category: 'Kids Boy Clothing'
     },
     {
         title: 'Value Packs',
-        url: '#'
+        category:'Kids Boy Clothing'
     },
     
 
@@ -555,63 +556,63 @@ export const Boys_Clothing = [
 export const Girls_Clothing = [
     {
         title: 'Dresses',
-        url: '#'
+        category: 'Kids girl Clothing'
     },
     {
         title: 'Tops',
-        url: '#'
+        category: 'Kids girl Clothing'
     },
     {
         title: 'Tshirts',
-        url: '#'
+        category: 'Kids girl Clothing'
     },
     {
         title: 'Clothing Sets',
-        url: '#'
+        category: 'Kids girl Clothing'
     },
     {
         title: 'Lehenga choli',
-        url: '#'
+        category: 'Kids girl Clothing'
     },
     {
         title: 'Kurta Sets',
-        url: '#'
+        category: 'Kids girl Clothing'
     },
     {
         title: 'Party wear',
-        url: '#'
+        category: 'Kids girl Clothing'
     },
     {
         title: 'Dungarees & Jumpsuits',
-        url: '#'
+        category: 'Kids girl Clothing'
     },
     {
         title: 'Skirts & shorts',
-        url: '#'
+        category: 'Kids girl Clothing'
     },
     {
         title: 'Tights & Leggings',
-        url: '#'
+        category: 'Kids girl Clothing'
     },
     {
         title: 'Jeans, Trousers & Capris',
-        url: '#'
+        category: 'Kids girl Clothing'
     },
     {
         title: 'Jacket, Sweater & Sweatshirts',
-        url: '#'
+        category: 'Kids girl Clothing'
     },
     {
         title: 'Innerwear & Thermal',
-        url: '#'
+        category: 'Kids girl Clothing'
     },
     {
         title: 'Nightwear & Loungewear',
-        url: '#'
+        category: 'Kids girl Clothing'
     },
     {
         title: 'Value Packs',
-        url: '#'
+        category: 'Kids girl Clothing'
     },
    
   
@@ -621,35 +622,35 @@ export const Girls_Clothing = [
 export const KFootwear = [
     {
         title: 'Casual Shoes',
-        url: '#'
+        category: 'kids Footwear'
     },
     {
         title: 'Flipflops',
-        url: '#'
+        category: 'kids Footwear'
     },
     {
         title: 'Sports Shoes',
-        url: '#'
+        category: 'kids Footwear'
     },
     {
         title: 'Flats',
-        url: '#'
+        category: 'kids Footwear'
     },
     {
         title: 'Sandals',
-        url: '#'
+        category: 'kids Footwear'
     },
     {
         title: 'Heels',
-        url: '#'
+        category: 'kids Footwear'
     },
     {
         title: 'School Shoes',
-        url: '#'
+        category: 'kids Footwear'
     },
     {
         title: 'Socks',
-        url: '#'
+        category: 'kids Footwear'
     },
   
 
@@ -658,19 +659,19 @@ export const KFootwear = [
 export const Toys = [
     {
         title: 'Learning & Development',
-        url: '#'
+        category: 'Toys And Games'
     },
     {
         title: 'Activity Toys',
-        url: '#'
+        category: 'Toys And Games'
     },
     {
         title: 'Soft Toys',
-        url: '#'
+        category: 'Toys And Games'
     },
     {
         title: 'Action Figure / Play set',
-        url: '#'
+        category: 'Toys And Games'
     },
   
 
@@ -679,39 +680,39 @@ export const Toys = [
 export const Infants = [
     {
         title: 'Bodysuits',
-        url: '#'
+        category: 'Kids Clothing'
     },
     {
         title: 'Rompers & Sleepsuits',
-        url: '#'
+        category: 'Kids Clothing'
     },
     {
         title: 'Clothing Sets',
-        url: '#'
+        category: 'Kids Clothing'
     },
     {
         title: 'Tshirts & Tops',
-        url: '#'
+        category: 'Kids Clothing'
     },
     {
         title: 'Dresses',
-        url: '#'
+        category: 'Kids Clothing'
     },
     {
         title: 'Bottom wear',
-        url: '#'
+        category: 'Kids Clothing'
     },
     {
         title: 'Winter Wear',
-        url: '#'
+        category: 'Kids Clothing'
     },
     {
         title: 'Innerwear & Sleepwear',
-        url: '#'
+        category: 'Kids Clothing'
     },
     {
         title: 'Infant Care',
-        url: '#'
+        category: 'Kids Clothing'
     },
   
 
@@ -720,27 +721,27 @@ export const Infants = [
 export const Kids_Accessories = [
     {
         title: 'Bags & Backpacks',
-        url: '#'
+        category: 'Kids Accessories'
     },
     {
         title: 'Watches',
-        url: '#'
+        category: 'Kids Accessories'
     },
     {
         title: 'Jewellery & Hair accessory',
-        url: '#'
+        category: 'Kids Accessories'
     },
     {
         title: 'Sunglasses',
-        url: '#'
+        category: 'Kids Accessories'
     },
     {
         title: 'Masks & Protective Gears',
-        url: '#'
+        category: 'Kids Accessories'
     },
     {
         title: 'Caps & Hats',
-        url: '#'
+        category: 'Kids Accessories'
     },
   
 
@@ -749,31 +750,31 @@ export const Kids_Accessories = [
 export const KBrands = [
     {
         title: 'H&M',
-        url: '#'
+        category: 'Kids Wear Online Store'
     },
     {
         title: 'Max Kids',
-        url: '#'
+        category:  'Kids Wear Online Store'
     },
     {
         title: 'Pantaloons',
-        url: '#'
+        category:  'Kids Wear Online Store'
     },
     {
         title: 'United Colors Of Benetton Kids',
-        url: '#'
+        category:  'Kids Wear Online Store'
     },
     {
         title: 'YK',
-        url: '#'
+        category:  'Kids Wear Online Store'
     },
     {
         title: 'U.S. Polo Assn. Kids',
-        url: '#'
+        category:  'Kids Wear Online Store'
     },
     {
         title: 'Mothercare',
-        url: '#'
+        category:  'Kids Wear Online Store'
     },
    
   
@@ -786,265 +787,265 @@ export const KBrands = [
 export const BedLinenFurnishing = [
     {
         title: 'Bedsheets',
-        url: '#'
+        category: 'Home Furnishing'
     },
 
     {
         title: 'Bedding Sets',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Blankets, Quilts & Dohars',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Pillows & Pillow Covers',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Bed Covers',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Diwan Sets',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Chair Pads & Covers',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Sofa Covers',
-        url: '#'
+        category: 'Home Furnishing'
     },
 ]
 
 export const Flooring = [
     {
         title: 'Carpets',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Floor Mats & Dhurries',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Door Mats',
-        url: '#'
+        category: 'Home Furnishing'
     },
 ]
 export const Bath = [
     {
         title: 'Bath Towels',
-        url: '#'
+        category: 'Home Furnishing'
     },
 
     {
         title: 'Hand & Face Towels',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Beach Towels',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Towels Set',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Bath Rugs',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Bath Robes',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Bathroom Accessories',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Shower Curtains',
-        url: '#'
+        category: 'Home Furnishing'
     },
 ]
 export const LampsLighting = [
     {
         title: 'Floor Lamps',
-        url: '#'
+        category: 'Home Furnishing'
     },
 
     {
         title: 'Ceiling Lamps',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Table Lamps',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Wall Lamps',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Outdoor Lamps',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'String Lights',
-        url: '#'
+        category: 'Home Furnishing'
     },
     
 ]
 export const HomeDécor = [
     {
         title: 'Plants & Planters',
-        url: '#'
+        category: 'Home Furnishing'
     },
 
     {
         title: 'Aromas & Candles',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Clocks',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Mirrors',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Wall Décor',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Festive Decor',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Pooja Essentials',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Wall Shelves',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Fountains',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Showpieces & Vases',
-        url: '#'
+        category: 'Home Furnishing'
     },
 ]
 export const KitchenTable = [
     {
         title: 'Dinnerware & Serveware',
-        url: '#'
+        category: 'Home Furnishing'
     },
 
     {
         title: 'Cups and Mugs',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Bakeware & Cookware',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Kitchen Storage & Tools',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Bar & Drinkware',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Table Covers & Furnishings',
-        url: '#'
+        category: 'Home Furnishing'
     },
    
 ]
 export const storage = [
     {
         title: 'Organisers',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Hooks & Holders',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Laundry Bags',
-        url: '#'
+        category: 'Home Furnishing'
     },
 ]
 export const HBrands = [
     {
         title: 'Home Centre',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Spaces',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'D Decor',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Portico New York',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Story@Home',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Pure Home & Living',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Swayam',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Raymond Home',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Maspar',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Corelle',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Trident',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Cortina',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Random',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'Ellementry',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'ROMEE',
-        url: '#'
+        category: 'Home Furnishing'
     },
     {
         title: 'SEJ by Nisha Gupta',
-        url: '#'
+        category: 'Home Furnishing'
     },
 ]
 
@@ -1053,51 +1054,51 @@ export const HBrands = [
 export const Makeup = [
     {
         title: 'Lipstick',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Lip Gloss',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Lip Liner',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Mascara',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Eyeliner',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Kajal',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Eyeshadow',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Foundation',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Primer',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Concealer',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Compact',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Nail Polish',
-        url: '#'
+        category: 'Personal Care'
     },
    
 
@@ -1106,86 +1107,86 @@ export const Makeup = [
 export const SkincareBathBody = [
     {
         title: 'Face Moisturiser',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Cleanser',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Masks & Peel',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Sunscreen',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Serum',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Face Wash',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Eye Cream',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Lip Balm',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Body Lotion',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Body Wash',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Body Scrub',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Hand Cream',
-        url: '#'
+        category: 'Personal Care'
     },
 ]
 
 export const Haircare = [
     {
         title: 'Shampoo',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Conditioner',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Hair Cream',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Hair Oil',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Hair Gel',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Hair Color',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Hair Serum',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Hair Accessory',
-        url: '#'
+        category: 'Personal Care'
     },
     
 ]
@@ -1193,19 +1194,19 @@ export const Haircare = [
 export const Fragrances = [
     {
         title: 'Perfume',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Deodorant',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Body Mist',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Appliances',
-        url: '#'
+        category: 'Personal Care'
     },
     
 ]
@@ -1213,11 +1214,11 @@ export const Fragrances = [
 export const HairStraightener = [
     {
         title: 'Hair Dryer',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Epilator',
-        url: '#'
+        category: 'Personal Care'
     },
     
 ]
@@ -1225,26 +1226,26 @@ export const HairStraightener = [
 export const MenGrooming = [
     {
         title: 'Trimmers',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Beard Oil',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Hair Wax',
-        url: '#'
+        category: 'Personal Care'
     },
 ]
 
 export const BeautyGiftMakeupSet = [
     {
         title: 'Beauty Gift',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Makeup Kit',
-        url: '#'
+        category: 'Personal Care'
     },
    
 ]
@@ -1252,63 +1253,63 @@ export const BeautyGiftMakeupSet = [
 export const BTopBrands = [
     {
         title: 'Lakme',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Maybelline',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'LOreal',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Philips',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Bath & Body Works',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'THE BODY SHOP',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Biotique',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Mamaearth',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'MCaffeine',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Nivea',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Lotus Herbals',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'LOreal Professionnel',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'KAMA AYURVEDA',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'M.A.C',
-        url: '#'
+        category: 'Personal Care'
     },
     {
         title: 'Forest Essentials',
-        url: '#'
+        category: 'Personal Care'
     },
    
 ]

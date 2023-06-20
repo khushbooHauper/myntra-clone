@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './styles/productCard.scss'
 import { useNavigate, useParams } from 'react-router-dom'
 export type Tproduct = {
@@ -15,16 +15,27 @@ export type Tproduct = {
 const ProductCard = ({ product }: { product: Tproduct }) => {
     const navigate = useNavigate();
     const {id} = useParams();
+    const [showWishlist, setShowWishlist] = useState(false);
 
     const openCard = ()=>{
         navigate(`/product/${product.id}`);
     }
   return (
-    <div className='card' onClick={openCard}>
+    <div className='card' onClick={openCard} onMouseEnter={() => setShowWishlist(true)}
+    onMouseLeave={() => setShowWishlist(false)}>
     <img src={product.image}/>
     <div className='card-body'>
-    <h5 className='clipped-text'>{product.title}</h5>
-    <p>Rs. {product.price}</p>
+    
+    {showWishlist ? (
+      <>
+          <button className='wishlist-button'>
+          <i className="fa fa-heart"></i> WISHLIST
+          </button>
+          <p>Sizes: 38</p>
+          </>
+        ):(<div><h5 className='clipped-text'>{product.title}</h5>
+       </div>)}
+       <p>Rs. {product.price}</p>
     </div>
     </div>
   )
