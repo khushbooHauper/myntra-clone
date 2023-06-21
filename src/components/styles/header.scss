@@ -19,13 +19,20 @@ $navbar-height: 80px;
   padding: 0 20px;
 
   &.mobile {
+   
     .navbar-brand {
-      width: 100%;
-      text-align: center;
+      // width: 100%;
+      // text-align: center;
+      display: none;
       .logo{
         width: 50px;
         height: 50px;
       }
+      .navbar-icons{
+        .fa{
+          font-size: 23px;
+      }
+    }
     }
 
     .navbar-menu {
@@ -38,6 +45,7 @@ $navbar-height: 80px;
 
       &.open {
         display: block;
+        
       }
 
       .navbar-nav {
@@ -117,10 +125,22 @@ $navbar-height: 80px;
   }
 
   &-toggle {
-    display: flex;
-    align-items: center;
+    width: 100%;
+    @include displayFlex;
     cursor: pointer;
-
+    .burger-icon-brand-text-container{
+      @include displayFlex;
+    }
+    .navbar-icons{
+      gap: 10px;
+      padding: 5px;
+    }
+    .brand-text-mobile{
+      color: grey;
+      font-size: 18px;
+      margin-left: 15px;
+      font-weight: 600;
+    }
     .navbar-toggle-label {
       display: block;
       width: 30px;
@@ -152,6 +172,80 @@ $navbar-height: 80px;
 
         &:nth-child(3) {
           margin-top: 2px;
+        }
+      }
+    }
+  }
+}
+
+
+.navbar-menu {
+  .sidebar {
+    width: 305px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    color: #fff;
+    padding-top: 80px;
+    transition: transform 0.3s ease-in-out;
+    
+    .side-image-box{
+      position: absolute;
+      top: 0;
+      .sidenav-image{
+        width: 305px;
+        height: 150px;
+      }
+    }
+
+
+
+    &.open {
+      transform: translateX(0);
+     
+    }
+
+    &.closed {
+      transform: translateX(-100%);
+    }
+
+    .sidebar-nav {
+      height: 400px;
+      padding: 20px;
+      margin-top: 60px;
+     
+      
+      .sidebar-item {
+        @include displayFlex;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 10px;
+         a{
+          text-decoration: none;
+          color: grey;
+         }
+         .menu-item-icon{
+          margin-top: -20px;
+        }
+        .sidebar-link {
+          display: block;
+          padding: 10px;
+          color: #fff;
+          text-decoration: none;
+          
+          &:hover {
+            background-color: #555;
+          }
+        }
+        .submenu{
+         .submenu-item{
+            position: relative;
+            top:0;
+            right: -50px;
+            
+          }
         }
       }
     }
